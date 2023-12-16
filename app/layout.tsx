@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Issue Tracker',
   description: 'Portflio: Pushons fullstack nextjs project',
+  icons: {
+    icon: '/bug.svg',
+  }
 }
 
 export default function RootLayout({
